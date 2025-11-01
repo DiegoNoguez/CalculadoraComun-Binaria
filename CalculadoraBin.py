@@ -2,11 +2,11 @@ import tkinter as tk
 from tkinter import ttk,filedialog,messagebox
 
 
-#Variables globales
+# Variables globales
 global window
 
-#Declaracion de funciones
-def Botonesetiquetas():
+# Declaracion de funciones
+def botonesEtiquetas():
     global window
     n1=ttk.Entry()
     n1.place(x=4,y=10)
@@ -16,8 +16,8 @@ def Ventana():
     window=tk.Tk()
     window.title("Calculadora")
     window.geometry("450x450")
-    Botonesetiquetas()
+    botonesEtiquetas()
     window.mainloop()
 
-#Ejecucion del codigo
+# Ejecución o llamada de funciones
 Ventana()
