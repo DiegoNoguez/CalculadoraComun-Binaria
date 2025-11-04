@@ -3,7 +3,7 @@ from tkinter import ttk,filedialog,messagebox
 
 
 # Variables globales
-global window
+global window  # Variable de la ventana
 
 # Declaracion de funciones
 def botonesEtiquetas():
